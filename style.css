@@ -460,3 +460,123 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
+/* === SECCIÓN REDISEÑO === */
+
+#redisenio {
+  background-color: #f9f9f9;
+  padding: 50px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-top: 40px;
+}
+
+#redisenio h2 {
+  color: #004080;
+  border-bottom: 3px solid #004080;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+}
+
+#redisenio h3 {
+  color: #003366;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+#redisenio h4 {
+  color: #004080;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Tarjetas internas (si deseas aplicarlas en cada sección dentro del rediseño) */
+.redisenio-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+/* Párrafos */
+#redisenio p {
+  margin-bottom: 14px;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Tablas del modelo */
+#redisenio table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+#redisenio th {
+  background-color: #e8f0ff;
+  color: #003366;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+#redisenio td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Listas */
+#redisenio ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#redisenio ul li {
+  margin-bottom: 8px;
+}
+
+/* BLOQUE DE ANÁLISIS / CONTENIDO DESTACADO */
+.redisenio-highlight {
+  background: #eaf2ff;
+  border-left: 5px solid #004080;
+  padding: 18px;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+/* ENLACES */
+#redisenio a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+#redisenio a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  #redisenio {
+    padding: 30px 15px;
+  }
+
+  #redisenio table {
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  #redisenio h3 {
+    font-size: 1.2em;
+  }
+}
